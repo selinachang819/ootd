@@ -1,22 +1,119 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  color: black;
+  font-family: 'Lora', serif;
+  font-size: 2pc;
+
+
+}
+p{
+  margin-bottom: 0;
+}
+body {
+  background-color: #ebeae8;
+}
+#generate {
+  font-family: 'Lora', serif;
+  background-color: #85948f;
+  color: white;
+  border: none;
+  font-size: 2pc;
+  border-radius: 3pc;
+  margin-top: 0;
+  margin: 2pc;
+  padding: 1pc;
+}
+
+#top{
+  position: absolute;
+  top: 3pc;
+  left: 1.5pc;
+  width: 40%;
+}
+#bottom{
+  position: absolute;
+  top: 8pc;
+  left: 9pc;
+  width: 40%;
+}
+#bag{
+  position: absolute;
+  top: 4pc;
+  right: 2pc;
+  width: 20%;
+}
+#shoes{
+  position: absolute;
+  top: 12pc;
+  right: 3pc;
+  width: 20%;
+}
+#accesory{
+  position: absolute;
+  top: 16pc;
+  left: 6pc;
+  width: 10%;
+}
+#outfit{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25pc;
+  height: 25pc;
+  background-color: white;
+}
+
+#wardrobe{
+  font-family:'Lora', serif;
+  background-color:#908294;
+  color: white;
+  border: none;
+  font-size: 1pc;
+  border-radius: 5pc;
+  padding: 1pc;
+  width: 80%;
+
+ 
+
+}
+#picture{
+  font-family:'Lora', serif;
+  background-color: #908294;
+  color: white;
+  border: none;
+  font-size: 1pc;
+  border-radius: 5pc;
+  padding: 1pc;
+  position:absolute;
+  right: 5%;
+  bottom: 3%;
+
+}
+#shot{
+  width: 3%;
+  position: relative;
+  left: 18%;
+}
+ul{
+  list-style: none;
+}
+a{
+  display: flex;
+  background-color: #dfdbe0;
+  color:#908294;
+  padding: 1pc;
+  font-size: 1.5pc;
+}
+a:hover{
+  background-color: #908294;
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.wardrobe{
+  position: absolute;
+  bottom: 3%;
+  left: 5%;
 }
+
+
