@@ -4,11 +4,17 @@
   color: black;
   font-family: 'Lora', serif;
   font-size: 2pc;
+  margin-top: 1.5%;
 
 
 }
+#anchor{
+  position: absolute;
+  top: 0%;
+}
 p{
   margin-bottom: 0;
+  margin-top: 0;
 }
 body {
   background-color: #ebeae8;
@@ -66,19 +72,6 @@ body {
 
 #wardrobe{
   font-family:'Lora', serif;
-  background-color:#908294;
-  color: white;
-  border: none;
-  font-size: 1pc;
-  border-radius: 5pc;
-  padding: 1pc;
-  width: 80%;
-
- 
-
-}
-#picture{
-  font-family:'Lora', serif;
   background-color: #908294;
   color: white;
   border: none;
@@ -86,34 +79,69 @@ body {
   border-radius: 5pc;
   padding: 1pc;
   position:absolute;
-  right: 5%;
-  bottom: 3%;
+  left: 5%;
 
-}
-#shot{
-  width: 3%;
-  position: relative;
-  left: 18%;
 }
 ul{
+  width: 10%;
   list-style: none;
+  position: absolute;
+  left: 2%;
+  top: 50%;
 }
+
+li{
+  text-align: center;
+  background-color: #fffffb;
+  color: #908294;
+  padding: 1%;
+  font-size: 30px;
+}
+
+li:hover{
+  background-color: #908294;
+  color: #fffffb;
+
+}
+
 a{
-  display: flex;
-  background-color: #dfdbe0;
-  color:#908294;
-  padding: 1pc;
-  font-size: 1.5pc;
+  text-decoration: none;
 }
-a:hover{
+
+
+
+#return{
+  font-family:'Lora', serif;
   background-color: #908294;
   color: white;
+  border: none;
+  font-size: 1pc;
+  border-radius: 5pc;
+  padding: 1pc;
+  position: fixed;
+  right: 5%;
+
 }
 
-.wardrobe{
+#choices{
+  width:50%;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  width: 100%;
   position: absolute;
-  bottom: 3%;
-  left: 5%;
+  top: 105%;
 }
 
 
+#tc, #bc, #sc, #bgc {
+  width: 100%;
+  margin: 1%;
+  margin-top: 0%;
+  margin-bottom: 2%;
+  height: max-content;
+}
+
+.display{
+  width: 10%;
+}
