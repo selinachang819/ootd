@@ -57,10 +57,7 @@ function App(){
           <a href="#sc"><li>Shoes</li></a>
           <a href="#bgc"><li>Bag</li></a>
         </ul> 
-      <div className="button">
-      <button id="wardrobe" onMouseOver={list} onMouseOut={list2}>Wardrobe</button>
-      <a href="#anchor"><button id="return">Going back UP!</button></a>
-      </div>
+      <button id="wardrobe" onMouseOver={list} onMouseOut={list2}>Wardrobe</button>    
       </div>
       <div id="choices">
         <div id="tc">
@@ -101,7 +98,7 @@ function App(){
         </div>
        
        </div>
-     
+      <a href="#anchor"><button id="return">Going back UP!</button></a>
     </div>
     
     );}
