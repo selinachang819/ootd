@@ -1,0 +1,69 @@
+[debug] [2019-12-09T09:39:16.288Z] ----------------------------------------------------------------------
+[debug] [2019-12-09T09:39:16.290Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-12-09T09:39:16.290Z] CLI Version:   7.8.1
+[debug] [2019-12-09T09:39:16.290Z] Platform:      win32
+[debug] [2019-12-09T09:39:16.290Z] Node Version:  v10.16.3
+[debug] [2019-12-09T09:39:16.291Z] Time:          Mon Dec 09 2019 17:39:16 GMT+0800 (China Standard Time)
+[debug] [2019-12-09T09:39:16.291Z] ----------------------------------------------------------------------
+[debug] [2019-12-09T09:39:16.291Z] 
+[debug] [2019-12-09T09:39:16.312Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-09T09:39:16.313Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\DELL\Desktop\ootd
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using wardrobe-upload.
+[debug] [2019-12-09T09:39:54.728Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-12-09T09:39:54.728Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-12-09T09:39:54.942Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-09T09:39:54.950Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/wardrobe-upload  
+ 
+[debug] [2019-12-09T09:39:55.744Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2019-12-09T09:41:05.907Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2019-12-09T09:41:06.375Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-09T09:41:09.043Z] Error: EEXIST: file already exists, mkdir 'C:\Users\DELL\Desktop\ootd'
+    at Object.mkdirSync (fs.js:757:3)
+    at mkdirsSync (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:22:9)
+    at mkdirsSync (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:27:16)
+    at mkdirsSync (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:28:9)
+    at mkdirsSync (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:28:9)
+    at mkdirsSync (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:28:9)
+    at mkdirsSync (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:28:9)
+    at mkdirsSync (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:28:9)
+    at mkdirsSync (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:28:9)
+    at mkdirsSync (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:28:9)
+    at mkdirsSync (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:28:9)
+    at mkdirsSync (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:28:9)
+    at mkdirsSync (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:28:9)
+    at mkdirsSync (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:28:9)
+    at mkdirsSync (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:28:9)
+    at mkdirsSync (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:28:9)
+[error] 
+[error] Error: An unexpected error has occurred.
